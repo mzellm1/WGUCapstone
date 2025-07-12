@@ -33,3 +33,6 @@ print(df.isnull().sum())
 missing_rows = df[df.isnull().any(axis=1)]
 print(f"\nRows with missing values: {len(missing_rows)}")
 print(missing_rows.head())
+
+# No missing values found in remaining dataset
+
