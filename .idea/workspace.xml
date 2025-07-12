@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb62bad5-f41b-405f-b53d-2559a54fc855" name="Changes" comment="Exploring dataset for outliers">
+    <list default="true" id="cb62bad5-f41b-405f-b53d-2559a54fc855" name="Changes" comment="Creating scatterplot, polynomial regression, finding any correlation, finding peak training hours, exporting df for Tableau use">
+      <change afterPath="$PROJECT_DIR$/Capstone Analyzing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Capstone Cleaning.py" beforeDir="false" afterPath="$PROJECT_DIR$/Capstone Cleaning.py" afterDir="false" />
     </list>
@@ -45,6 +46,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Capstone Analyzing.executor": "Run",
     "Python.Capstone Cleaning.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -135,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752351759023</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Creating scatterplot, polynomial regression, finding any correlation, finding peak training hours, exporting df for Tableau use">
+      <option name="closed" value="true" />
+      <created>1752354814305</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1752354814305</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +163,7 @@
     <MESSAGE value="Import data set" />
     <MESSAGE value="Missed previous commit/push comment. Cleaning dataset." />
     <MESSAGE value="Exploring dataset for outliers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exploring dataset for outliers" />
+    <MESSAGE value="Creating scatterplot, polynomial regression, finding any correlation, finding peak training hours, exporting df for Tableau use" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating scatterplot, polynomial regression, finding any correlation, finding peak training hours, exporting df for Tableau use" />
   </component>
 </project>
