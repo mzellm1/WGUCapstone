@@ -1,5 +1,6 @@
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import PolynomialFeatures
+import statsmodels.api as sm
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -51,7 +52,7 @@ b = model.coef_[1]
 peak = -b / (2 * a)
 print(f"Estimated peak productivity occurs at ~{peak:.2f} avg training hours per employee")
 
-
+# Visual for peak productivity training
 plt.figure(figsize=(10, 6))
 sns.scatterplot(x='Avg Training Hours per Employee', y='Productivity Change', data=df, alpha=0.1)
 plt.plot(x_range, y_pred, color='red', label='Polynomial Fit')
@@ -62,3 +63,16 @@ plt.ylabel('Productivity Change')
 plt.legend()
 plt.tight_layout()
 plt.show()
+
+# Regression summary for R-squared and P-Value
+X = df[['Avg Training Hours per Employee']]
+y = df['Productivity Change']
+poly = PolynomialFeatures(degree=2)
+X_poly = poly.fit_transform(X)
+
+X_poly_df = pd.DataFrame(X_poly, columns=['Intercept', 'X', 'X^2'])
+
+# Add constant to avoid duplicate intercept
+model = sm.OLS(y, X_poly_df).fit()
+
+print(model.summary())

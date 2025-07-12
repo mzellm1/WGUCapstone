@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb62bad5-f41b-405f-b53d-2559a54fc855" name="Changes" comment="Creating scatterplot, polynomial regression, finding any correlation, finding peak training hours, exporting df for Tableau use">
-      <change afterPath="$PROJECT_DIR$/Capstone Analyzing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Capstone Cleaning.py" beforeDir="false" afterPath="$PROJECT_DIR$/Capstone Cleaning.py" afterDir="false" />
+    <list default="true" id="cb62bad5-f41b-405f-b53d-2559a54fc855" name="Changes" comment="Separated cleaning file and analysis file, created plot for peak productivity training">
+      <change beforePath="$PROJECT_DIR$/Capstone Analyzing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Capstone Analyzing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752354814305</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Separated cleaning file and analysis file, created plot for peak productivity training">
+      <option name="closed" value="true" />
+      <created>1752358057874</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1752358057874</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +170,7 @@
     <MESSAGE value="Missed previous commit/push comment. Cleaning dataset." />
     <MESSAGE value="Exploring dataset for outliers" />
     <MESSAGE value="Creating scatterplot, polynomial regression, finding any correlation, finding peak training hours, exporting df for Tableau use" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating scatterplot, polynomial regression, finding any correlation, finding peak training hours, exporting df for Tableau use" />
+    <MESSAGE value="Separated cleaning file and analysis file, created plot for peak productivity training" />
+    <option name="LAST_COMMIT_MESSAGE" value="Separated cleaning file and analysis file, created plot for peak productivity training" />
   </component>
 </project>
