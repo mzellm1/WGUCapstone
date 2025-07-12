@@ -20,6 +20,7 @@ print("Remaining columns:", df.columns.tolist())
 
 # Changing company names to a unique integer starting from 1, column named changed to reflect that
 df = df.rename(columns={'Company Name': 'Company ID'})
+df = df.rename(columns={'Productivity Change (%)': 'Productivity Change'})
 df['Company ID'] = range(1, len(df) + 1)
 
 # Confirmation of change
@@ -33,6 +34,10 @@ print(df.isnull().sum())
 missing_rows = df[df.isnull().any(axis=1)]
 print(f"\nRows with missing values: {len(missing_rows)}")
 print(missing_rows.head())
-
 # No missing values found in remaining dataset
 
+print(df.info())
+print(df[['Productivity Change']].describe())
+print(df[['Training Hours Provided']].describe())
+print(df[['Number of Employees Impacted']].describe())
+# No obvious incorrect data or outliers in the dataset

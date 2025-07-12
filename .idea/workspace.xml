@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb62bad5-f41b-405f-b53d-2559a54fc855" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Capstone Analysis.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Capstone Cleaning.py" afterDir="false" />
+    <list default="true" id="cb62bad5-f41b-405f-b53d-2559a54fc855" name="Changes" comment="Missed previous commit/push comment. Cleaning dataset.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Capstone Cleaning.py" beforeDir="false" afterPath="$PROJECT_DIR$/Capstone Cleaning.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "mzellm1"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mzellm1/WGUCapstone.git",
+    "accountId": "4668a8d8-3dd3-4aaf-b40b-64b405a2de7c"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -97,6 +103,31 @@
       <option name="presentableId" value="Default" />
       <updated>1752341082011</updated>
     </task>
+    <task id="LOCAL-00001" summary="Import data set">
+      <option name="closed" value="true" />
+      <created>1752343578666</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752343578666</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Import data set">
+      <option name="closed" value="true" />
+      <created>1752351145464</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752351145464</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Missed previous commit/push comment. Cleaning dataset.">
+      <option name="closed" value="true" />
+      <created>1752351225584</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752351225584</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,5 +140,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Import data set" />
+    <MESSAGE value="Missed previous commit/push comment. Cleaning dataset." />
+    <option name="LAST_COMMIT_MESSAGE" value="Missed previous commit/push comment. Cleaning dataset." />
   </component>
 </project>
