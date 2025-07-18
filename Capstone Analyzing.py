@@ -34,7 +34,7 @@ model = LinearRegression()
 model.fit(X_poly, y)
 
 # Predict for plotting
-x_range = np.linspace(X.min(), X.max(), 300)
+x_range = pd.DataFrame(np.linspace(X.min().iloc[0], X.max().iloc[0], 300), columns=['Avg Training Hours per Employee'])
 x_range_poly = poly.transform(x_range)
 y_pred = model.predict(x_range_poly)
 
